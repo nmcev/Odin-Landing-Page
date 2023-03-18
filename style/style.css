@@ -7,6 +7,8 @@ body{
     display: flex;
     justify-content: space-between;
     background-color:hsl(221,39%,11%);
+    padding-left: 3rem;
+    padding-right: 8rem;
 }
 .nav-title {
     display: flex;
