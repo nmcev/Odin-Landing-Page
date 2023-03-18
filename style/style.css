@@ -20,13 +20,12 @@ body{
     display: flex;
     gap: 24px;
     align-items: center;
-    color: whitesmoke;
     list-style: none;
    
 }
 .nav-a{
     text-decoration: none;
-    color: aliceblue;
+    color: rgba(108, 148, 183, 0.863);
 }
 .container{
     display: flex;
