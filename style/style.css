@@ -1,56 +1,90 @@
-body{
+body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.header{
+.header {
     display: flex;
     justify-content: space-between;
-    background-color:hsl(221,39%,11%);
+    background-color: hsl(221, 39%, 11%);
     padding-left: 3rem;
     padding-right: 8rem;
 }
+
 .nav-title {
     display: flex;
     gap: 10px;
     color: whitesmoke;
     justify-content: center;
-    flex-shrink:  1;
+    flex-shrink: 1;
 
 }
-.nav-links{
+
+.nav-links {
     display: flex;
     gap: 24px;
     align-items: center;
     list-style: none;
-   
+
 }
-.nav-a{
+
+.nav-a {
     text-decoration: none;
     color: rgba(108, 148, 183, 0.863);
 }
-.container{
+
+.container {
     display: flex;
     justify-content: space-around;
 }
-.container-img{
+
+.container-img {
     order: 1;
     display: flex;
-    padding-top:6rem;
+    padding-top: 6rem;
 }
-.container-description{
+
+.container-description {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-   
+
 
 }
-h2{
+
+h2 {
     margin-bottom: 0;
     font-size: 32px;
 }
-.container-para{
+
+.container-para {
     font-size: 22px;
     margin: 1;
+}
+
+.container-logo{
+    display: flex;
+    justify-content:center;
+    gap: 6rem;
+    flex-wrap: wrap;
+    padding-top: 10rem;
+    text-align: center;
+    padding-bottom: 8rem;
+}
+.logo-description{
+    max-width: 300px;
+    text-align: center;
+}
+.footer{
+    background-color: #1f2937;
+    color: rgb(239, 234, 227);
+    padding: 8rem;
+    
+}
+
+.link{
+    display: flex;
+    gap: 5rem;
+    text-decoration: none;
 }
