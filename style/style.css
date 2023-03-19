@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .header {
@@ -63,28 +63,71 @@ h2 {
     margin: 1;
 }
 
-.container-logo{
+.container-logo {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     gap: 6rem;
     flex-wrap: wrap;
     padding-top: 10rem;
     text-align: center;
-    padding-bottom: 8rem;
+    padding-bottom: 4rem;
 }
-.logo-description{
+
+.logo-description {
     max-width: 300px;
     text-align: center;
 }
-.footer{
-    background-color: #1f2937;
-    color: rgb(239, 234, 227);
-    padding: 8rem;
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+    padding: 0;
+    box-sizing: border-box;
     
 }
 
-.link{
+.button0 {
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 140px;
+    background :#7fef2fe5;
+    font-size: 15px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.button0:hover{
+    cursor: pointer;
+    background:#66ff00 ;
+    box-shadow:  0 0 5px #66ff00 ,
+                 0 0 20px #66ff00 ,
+                 0 0 60px  #66ff00 ,
+                 0 0 150px   #66ff00;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: rgb(239, 234, 227);
+    height: 15rem;
+
+}
+
+.footer-info {
+    display: flex;
+    padding-top: 3rem;
+    justify-content: center;
+}
+
+.link {
     display: flex;
     gap: 5rem;
+    align-items: flex-end;
+    padding-top: 7rem;
+}
+
+a {
     text-decoration: none;
+    color: whitesmoke;
 }
