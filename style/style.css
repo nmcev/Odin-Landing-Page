@@ -61,6 +61,7 @@ h2 {
 .container-para {
     font-size: 22px;
     margin: 1;
+    max-width: 700px;
 }
 
 .container-logo {
@@ -93,10 +94,11 @@ h2 {
     outline: none;
     height: 40px;
     width: 140px;
-    background :#7fef2fe5;
+    background :#98e661e5;
     font-size: 15px;
     border-radius: 20px;
     font-weight: bold;
+    color: #1a2330;
 }
 .button0:hover{
     cursor: pointer;
