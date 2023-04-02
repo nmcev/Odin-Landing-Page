@@ -9,6 +9,8 @@ body {
     background-color: hsl(221, 39%, 11%);
     padding-left: 3rem;
     padding-right: 8rem;
+    margin-bottom: 6rem;
+
 }
 
 .nav-title {
@@ -29,7 +31,11 @@ body {
 
 .nav-a {
     text-decoration: none;
-    color: rgba(108, 148, 183, 0.863);
+    color: rgba(255, 255, 255, 0.863);
+
+}
+.nav-a:hover{
+    text-shadow: 0 0 15px #888;
 }
 
 .container {
@@ -40,7 +46,7 @@ body {
 .container-img {
     order: 1;
     display: flex;
-    padding-top: 6rem;
+    box-shadow: 0 0 15px
 }
 
 .container-description {
@@ -48,8 +54,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-
 }
 
 h2 {
@@ -93,7 +97,7 @@ h2 {
     outline: none;
     height: 40px;
     width: 140px;
-    background :#98e661e5;
+    background :#ffd710e5;
     font-size: 15px;
     border-radius: 20px;
     font-weight: bold;
@@ -101,11 +105,11 @@ h2 {
 }
 .button0:hover{
     cursor: pointer;
-    background:#66ff00 ;
-    box-shadow:  0 0 5px #66ff00 ,
-                 0 0 20px #66ff00 ,
-                 0 0 60px  #66ff00 ,
-                 0 0 150px   #66ff00;
+    background:#ffd710e5 ;
+    box-shadow:  0 0 5px #ffd710e5 ,
+                 0 0 20px #ffd710e5 ,
+                 0 0 60px  #ffd710e5 ,
+                 0 0 150px   #ffd710e5;
 }
 
 .footer {
