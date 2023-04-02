@@ -59,6 +59,7 @@ body {
 h2 {
     margin-bottom: 0;
     font-size: 32px;
+    color: #1f2937;
 }
 
 .container-para {
@@ -88,8 +89,6 @@ h2 {
     align-items: center;
     margin-bottom: 3rem;
     padding: 0;
-    box-sizing: border-box;
-    
 }
 
 .button0 {
@@ -107,9 +106,9 @@ h2 {
     cursor: pointer;
     background:#ffd710e5 ;
     box-shadow:  0 0 5px #ffd710e5 ,
-                 0 0 20px #ffd710e5 ,
-                 0 0 60px  #ffd710e5 ,
-                 0 0 150px   #ffd710e5;
+                0 0 20px #ffd710e5 ,
+                0 0 60px  #ffd710e5 ,
+                0 0 150px   #ffd710e5;
 }
 
 .footer {
