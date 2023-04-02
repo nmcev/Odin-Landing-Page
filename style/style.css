@@ -17,7 +17,6 @@ body {
     color: whitesmoke;
     justify-content: center;
     flex-shrink: 1;
-
 }
 
 .nav-links {
@@ -132,4 +131,8 @@ h2 {
 a {
     text-decoration: none;
     color: whitesmoke;
+}
+
+h1,.odin-logo{
+cursor: pointer;
 }
