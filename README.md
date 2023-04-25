@@ -2,4 +2,4 @@
 
 # The link 
 
-![Landing page](https://nmcev.github.io/Odin-Landing-Page/)
+Landing page(https://nmcev.github.io/Odin-Landing-Page/)
